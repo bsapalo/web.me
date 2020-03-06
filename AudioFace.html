@@ -78,74 +78,55 @@
             <h1 style="text-align:center">What is AudioFace?</h1>
             <h2 style="font-weight: 200; text-align:center">
             AudioFace is a React Native application that analyzes facial emotions and builds a Spotify
-             playlist to satisfy that mood.</h2>
+             playlist to match that mood.</h2>
              <br>
             <p style = "text-align:center">
               <img src="images/AudioFace.png" alt="" class="img-fluid" style ="width:40%">
             </p>
             <br><br><br><br>
-            <h1 style="text-align:center">#1. Context</h1>
-            <p style="text-align:center">Audio Face was developed for my class Principles of Software Development </p>
-            <p style="text-align:center">
-            1. Devise an identity for a hotel <br>
-            2. Create a logline or slogan <br>
-            3. Determine the target customer <br>
-            4. Develop a Home Page, Hamburger Menu, and Login Page <br>
-            5. Build a working prototype in Figma
+            <h1 style="text-align:center; text-decoration:underline">Context</h1>
+            <p style="text-align:center">AudioFace was developed for CSCI 201L: Principles of Software Development</p>
+            <p style="text-align:center">The project had seven requirements...</p>
+            <p style="text-align:left; width: 100%">
+            <img src="images/AF1.jpg" class="img-fluid" align="right" style ="width:40%">
+            - Include <span style="color:#ff8500; text-decoration:underline">two REST APIs</span><br>
+            - Must include <span style="color:#ff8500; text-decoration:underline">user login functionality</span> and a central server to authenticate <br>
+            - Users can <span style="color:#ff8500; text-decoration:underline">interact with the software as a guest</span> but experience limited functionality
+				compared to authenticated users. <br>
+			- <span style="color:#ff8500; text-decoration:underline">Users must be able to register</span> so they can become an authenticated user. The
+				method by which they register is up to you. When a user registers, the data should be <span style="color:#ff8500; text-decoration:underline">stored in a database on the server</span>. <br>
+            - The program must have <span style="color:#ff8500; text-decoration:underline">multi-threaded and network functionality</span> outside of chatting.
+				You can include chat, but there must be multi-threaded and networking functionality other than that as well. <br>
+			- At least the <span style="color:#ff8500; text-decoration:underline">back-end server logic must be written in Java.</span> It could be a web application,
+				mobile app, or standalone application, but at least the back-end server code must be
+				written in Java.				
             </p>
             <br><br><br><br>
-            <h1 style="text-align:center">#3. User Research Process</h1>
-            <p style="text-align:center">The first step to producing the aforementioned deliverables was 
-            conducting user interviews:</p>
-            <h2 style="text-indent:4em">Lois (Age 21):</h2>
-            <p>
-              <img src="images/loey.jpg" alt="" class="img-fluid" align="left" style= "max-width:40%">
- 			Lois is a student at the University of Washington, Seattle. She and her family are avid wine 
-            enthusiasts. They live in a densely populated area in San Francisco. They love going wine tasting
-            in Sonoma (just a 2-hour drive), but their visits are always limited to day trips.
+            
+            
+            <h1 style="text-align:center;text-decoration:underline">Research</h1>
+            <p style="text-align:center">The first step of the project required some background research on interesting APIs</p>
+            <p style="text-align:center">
+              <img src="images/yahoofin.jpg" alt="" style="width:20%"  class="img-fluid"> 
+              <img src="images/gmaps.jpg" alt="" style="width:20%"  class="img-fluid">
+              <img src="images/spotify.jpg" alt="" style="width:20%"  class="img-fluid">
+              <img src="images/azure.jpg" alt="" style="width:20%"  class="img-fluid">
             </p>
             <br>
-            <p style="text-decoration:underline">Quotes:</p>
-            <p>
-            "I'm not the biggest wine drinker, but I love to join my family and spend quality time with them." <br>
-            "We only stay for a couple of hours and then leave. I wish I could explore Sonoma more because it's really
-            beautiful and peaceful." 
+            <p style="text-align:center">
+ 			First, we drafted a number of fun and interesting APIs that could compliment one another...
             </p>
-            <br><br>
-            <h2 style="text-indent:4em">Henry (Age 23):</h2>
-            <p>
-              <img src="images/hen.jpg" alt="" class="img-fluid" align="left" style= "max-width:40%">
-            </p>
-            <p>Henry is a graduate student at the University of San Francisco. He and his friends go to Sonoma two or three
-            times a semester. His favorite part of the trip is spending quality time with his friends. He doesn't think
-            of Sonoma as an overnight destination, but he believes he and his friends would get more out of their trips if they could 
-            extend the trip overnight.
-            </p>
-            <p style="text-decoration:underline">Quotes:</p>
-            <p>
-            "I love going to Sonoma. I've always had a great experience with friends." <br>
-            "The hotels in the area are not very updated or modern. None have even caught my
-            attention or made me think to stay overnight." 
-            </p>
-            
-            <br><br>
-            <h2 style="text-indent:4em">Arthur (Age 24):</h2>
-            <p>
-              <img src="images/endo.jpg" alt="" class="img-fluid" align="left" style= "max-width:40%">
-            </p>
-            <p>Arthur is a master's student at the University of California, San Francisco. Arthur does not have much time to go out
-            with his busy schedule as a medical student. He's looking for an opportunity to do a short trip with the few weekends 
-            he has available. He's heard of Sonoma and the vineyards from his friends but is looking for more than just a wine trip.
-            </p>
-            <p style="text-decoration:underline">Quotes:</p>
-            <p>
-            "Being a UCSF student is really demanding, so I don't have much time to do weekend trips." <br>
-            "I'm currently on the hunt for a quick trip nearby. Sonoma sounds nice, but what else is there to 
-            do besides wine tasting?"
+            <p style="text-align:center">
+				- Spotify Web API <br>
+				- Yahoo Finance API <br>
+				- Meme API <br>
+				- Microsoft Azure API <br>
+				- Google Maps API <br>
+				- Firebase API <br>
             </p>
             <br><br><br><br>
             
-            <h1 style="text-align:center">#4. Research Results</h1>
+            <h1 style="text-align:center">Research Results</h1>
             <p style="text-align:center">From the user interviews we can build the identity of the hotel and define its customer base</p>
             <p>As a result from the interviews, it seems like there's interest in a modern style hotel with an established name. Sonoma is a great location since it's a mini-vacation of sorts with a lot of character and notoriety.
             Lois & Henry are interested in extending their trips to spend more quality time with their loved ones. Arthur is interested in
